@@ -146,3 +146,39 @@ body {
     align-items: center;
     gap: 0.2rem;
   }
+
+
+
+
+  /* ------------------------ */
+
+img.heroHoverLarge {
+    box-shadow: rgb(28, 30, 30) 0px 0px 4px 4px;
+    color: rgb(149, 149, 149);
+    display: none;
+    height: 71px;
+    left: -34px;
+    position: absolute;
+    text-align: left;
+    top: -19px;
+    width: 127px;
+    z-index: 3;
+    background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 3px 3px 3px 3px;
+    font: normal normal normal 16px/normal arial, helvetica, sans-serif;
+    padding: 1px;
+}
+
+img.heroHoverSmall {
+  border-radius: 20px;
+  
+    margin: 30px;
+    color: rgb(149, 149, 149);
+    height: 44px;
+    text-align: left;
+    width: 59px;
+    border: 10px none rgb(149, 149, 149);
+    font: normal normal normal 16px/normal arial, helvetica, sans-serif;
+    outline: rgb(149, 149, 149) none 0px;
+}

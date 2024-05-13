@@ -1,0 +1,303 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+body {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-image:url('https://3.bp.blogspot.com/-7ri-WkeNq0I/TnyeLa02MCI/AAAAAAAAAog/yYBSP0z660Q/s1600/dota2wallpaper_by_veer1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo a span {
+  color: #8739fa;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  display: block;
+  padding: 7px 15px;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.2s all ease-in-out;
+  color: #fff;
+}
+
+.menu:hover a {
+  opacity: 0.4;
+}
+
+.menu a:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked ~ .menu {
+  transform: scale(1, 1);
+}
+
+@media only screen and (max-width: 950px) {
+  .menu {
+    flex-direction: column;
+    
+    background-color: #3b3b3b65;
+    align-items: start;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+
+  .menu a {
+    margin-left: 12px;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+  }
+}
+
+
+.Page {
+  width:1000px;
+  height:1195px;
+  background-color: gray;
+  background-color:rgba(0,0,0,.8);
+/*  box-shadow: 10px 10px 5px #888888;*/
+  margin: 0 auto;
+}
+p {
+  color: white;
+  padding: 20px 30px 30px 30px;
+}
+.Summary {
+  color: white;
+  padding: 0 30px 10px 20px;
+  float: right;
+  width: 745px; 
+  font-size: 15px;
+  border-radius: 10px;
+  border: 2px solid black;
+  border-color: #CC0000;
+  border-top: 0;
+  border-left: 0;
+}
+.Videos {
+  color: white;
+  padding: 0 30px 10px 20px;
+  float: right;
+  width: 745px; 
+  font-size: 15px;
+  border: 2px solid black;
+  border-color: #CC0000;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 10px
+}
+iframe {
+  text-align: center;
+  position: relative;
+  left: 100px;
+}
+.Players {
+  color: white;
+  padding: 0 30px 10px 20px;
+  float: right;
+  width: 745px; 
+  border-radius: 10px;
+  font-size: 15px;
+  border: 2px solid black;
+  border-color: #CC0000;
+  border-top: 0;
+  border-left: 0;
+}
+.Players a {
+  text-decoration: none; 
+  font: menu;
+  display: inline-block; 
+  padding: 2px 8px;
+  margin: 0 0 10px 10px;
+  background: ButtonFace; 
+  color: ButtonText;
+  border-style: solid;
+  border-color: #CC0000;
+  border-width: 2px;
+  border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+}
+.Groups {
+  color: white;
+  padding: 0 30px 0px 20px;
+  float: right;
+  width: 745px; 
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  border-color: #CC0000;
+  border-top: 0;
+  border-left: 0;
+  text-align: center;
+}
+.DoTN {
+  border: 2px solid black;
+  border-color: #CC0000;
+  border-radius: 10px;
+  width: 200px;
+  float: right;
+  height: 50px;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 10px 10px 10px 10px;
+  border-left: 0px;
+}
+.SA {
+  border: 2px solid black;
+  border-left: 0px;
+  border-radius: 10px;
+  border-color: #CC0000;
+  width: 200px;
+  float: right;
+  height: 50px;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 10px 10px 10px 10px;
+}
+.PO {
+  border: 2px solid black;
+  border-color: #CC0000;
+  border-radius: 10px;
+  width: 200px;
+  float: right;
+  border-top: 0;
+  border-bottom: 0;
+  height: 50px;
+  padding: 10px 10px 10px 10px;
+}
+section {
+  padding: 10px 30px 10px 30px;
+  text-indent:25px;    
+}
+
+.Bar {
+  font-size:30px;
+  padding: 10px 100px 12px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  border-color: #CC0000;
+  background: rgb(255,48,25); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,48,25,1) 0%, rgba(207,4,4,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,48,25,1)), color-stop(100%,rgba(207,4,4,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+  /*border-radius: 0px 0px 10px 0px; */
+}
+.Info {
+  border: 2px solid black;
+  border-color: #CC0000;
+  border-top: 0;
+  border-radius: 10px;
+  width: 170px;
+  padding: 15px 5px 762px 23px;
+  background-color:gray;
+  background-color:rgba(0,0,0,0.4);
+}
+.Title {
+  font-size: 40px;
+  padding: 10px 0 10px 18px;
+  color: white;
+}
+img {
+  margin: 3px 0 0 0;
+  height: 90px;
+  width: 90%;
+  border-radius: 25px;
+  border: 2px solid black;
+  border-color: #CC0000;
+  border-radius: 10px;
+}
+.Gamelist {
+  cursor: pointer;
+  margin: 0px 0 0 25px;
+  color: black;
+  font-size: 15px;
+  user-select: none;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  width: 85px;
+  border: 10px;
+  border-radius: 10px;
+  border-color: #CC0000;
+  background: rgb(255,48,25); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255,48,25,1) 0%, rgba(207,4,4,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,48,25,1)), color-stop(100%,rgba(207,4,4,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+}
+.Gamelist:Active {
+  background: rgb(125,126,125); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
